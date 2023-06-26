@@ -1,0 +1,162 @@
+.main-banner {
+  padding: 10.4rem 0;
+  position: relative;
+  min-height: calc(100vh - 10rem);
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    background-image: url(../../../assets/images/bg-cruve.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 33rem;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 4.4rem;
+    margin: 0;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: -2px;
+  }
+  .heading-shape {
+    margin-bottom: 3.6rem;
+  }
+  h5 {
+    font-size: 3.2rem;
+    margin-bottom: 5.3rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+  }
+}
+
+.owl-carousel.owl-drag .owl-item {
+  max-width: 39.8rem;
+}
+
+.features-section .list-bx {
+  max-width: 44rem;
+  margin: 0 auto;
+  h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+  }
+}
+.list-right-img {
+  .image-bx {
+    text-align: right;
+  }
+}
+
+.margin-top-custom {
+  margin-top: -9rem;
+}
+.fw-400 {
+  font-weight: 400;
+}
+
+.candidate-experience-bx {
+  max-width: 52rem;
+  margin: 0 auto;
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+  }
+  p.fw-400 {
+    font-weight: 400;
+    margin-bottom: 0rem;
+  }
+}
+
+.features-section {
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: "";
+    background-image: url(../../../assets/images/shape-bg-left.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 78rem;
+    width: 100%;
+    height: fit-content;
+    height: 123.2rem;
+    z-index: -1;
+    background-size: contain;
+  }
+  &:after {
+    content: "";
+    background-image: url(../../../assets/images/shape-bg-right.svg);
+    position: absolute;
+    bottom: -3rem;
+    left: auto;
+    right: 0;
+    max-width: 78.5rem;
+    width: 100%;
+    height: fit-content;
+    height: 123.2rem;
+    z-index: -1;
+    background-size: contain;
+  }
+}
+.trusted-organizations {
+  max-width: 56.1rem;
+  margin: 0 auto;
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+  }
+}
+
+
+
+@media (min-width: 1400px) {
+.main-banner {
+  h1 {
+    font-size: 5rem;
+  }
+  h5 {
+    font-size: 4.2rem;
+  }
+  p {
+    font-size: 2.2rem;
+  }
+  
+}
+}
+
+@media screen and (max-width: 1500px) {
+  .main-banner {
+    padding: 5.4rem 0;
+  }
+}
+
+

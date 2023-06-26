@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111.155" height="111.5" viewBox="0 0 111.155 111.5">
+  <g id="impact" transform="translate(3946.5 4850.777)">
+    <g id="XMLID_19_" transform="translate(-3945 -4850.777)">
+      <circle id="XMLID_20_" cx="53.024" cy="53.024" r="53.024" transform="translate(0 3.608)" fill="#208ec8" stroke="#000" stroke-width="3"/>
+      <path id="XMLID_21_" d="M160,10a53.333,53.333,0,0,1,0,106.667" transform="translate(-107.011 -6.667)" fill="#5cc7ff" stroke="#000" stroke-width="3"/>
+      <circle id="XMLID_22_" cx="39.972" cy="39.972" r="39.972" transform="translate(13.052 16.66)" fill="#fcb200"/>
+      <circle id="XMLID_23_" cx="26.92" cy="26.92" r="26.92" transform="translate(26.104 29.712)" fill="#6b0649"/>
+      <path id="XMLID_24_" d="M160,90a26.667,26.667,0,0,1,0,53.333" transform="translate(-107.011 -60)" fill="#920061"/>
+      <circle id="XMLID_25_" cx="13.052" cy="13.052" r="13.052" transform="translate(39.972 43.579)" fill="#ffda44"/>
+      <g id="XMLID_26_" transform="translate(49.266)">
+        <path id="XMLID_27_" d="M179.757,67.175l-2.677,2.677-9.54,9.54-9.78,9.78-7.466,7.466a5,5,0,1,0,7.071,7.071l7.466-7.466,9.78-9.78,9.54-9.54,2.677-2.677Z" transform="translate(-148.83 -44.783)" fill="#fff"/>
+        <path id="XMLID_28_" d="M239.254,22.392l-1.178,8.25L252.218,16.5,254.575,0l-12.55,12.55-1.593,1.593Z" transform="translate(-208.327)" fill="#cb9512"/>
+        <path id="XMLID_29_" d="M238.076,58.926l8.25-1.178,8.249-1.179,1.593-1.593,12.55-12.549-16.5,2.357Z" transform="translate(-208.327 -28.285)" fill="#fcb200"/>
+      </g>
+    </g>
+  </g>
+</svg>

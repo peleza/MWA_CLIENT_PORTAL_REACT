@@ -1,0 +1,25 @@
+.DashboardSidebar{display: flex;flex-direction: column;list-style: none;margin: 0;padding: 0;  background: var(--secondaryColor); position: fixed; left: 0; top: 8rem; min-height: calc(100vh - 8rem);width: 12rem; z-index: 999;
+  >li{position: relative;
+    >a{text-align: center;display: block; color: var(--whiteColor); padding: 1rem; font-size: 13px; font-weight: 500; height: 10rem; display: flex; flex-direction: column; justify-content: center; 
+      span{display: block;margin-bottom: .5rem;
+        img{width: 2.2rem;height: 2.2rem;}
+      }
+      // &:hover,
+      // &.active{background: var(--yellowColor);}
+    }
+    button{text-align: center;display: block;background: transparent;border: none;padding: 2rem;width: 100%;margin-bottom: 4vh;}
+
+    .sidebar-dropdown-list{position: absolute;top: 0; left: 100%;background: var(--yellowColor);padding: 1rem 0; width: 15rem; margin: 0; list-style: none; display: none;
+      li{
+        a{padding: .7rem 2rem;color: var(--whiteColor);font-size: 13px;font-weight: 500;display: block;
+          &:hover{background: #edaa0a;}
+        }
+      }
+    }
+
+    &:hover .sidebar-dropdown-list{display: block;}
+    &:hover a{background: var(--yellowColor);}
+  }
+}
+
+.pidvaSidebar{width: 24.7rem;}

@@ -1,0 +1,101 @@
+.btn {
+    padding: 1rem 2.5rem;
+    min-width: 18rem;
+    font-size: 1.6rem;
+    height: 6rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:focus {
+        box-shadow: none;
+    }
+
+    &.btn-sm{font-size: 16px;padding: .5rem 1.5rem;height: 4.5rem;min-width: 13rem;}
+    &.btn-xs{font-size: 14px;padding: .5rem 1.5rem;height: 4rem;min-width: 12rem;}
+    svg{font-size: 2rem;}
+}
+.btn-primary {
+    border: 2px solid var(--secondaryColor);
+    background-color: transparent;
+    color: #1A1A1A;
+    font-weight: 500;
+    img {
+        margin-right: 1rem;
+        max-width: 2rem;
+    }
+    &:hover, &:focus {
+        background-color: var(--secondaryColor);
+        color: var(--whiteColor);
+        border-color: var(--secondaryColor);
+        img {
+            filter: brightness(.01);
+        }
+    }
+}
+.btn-secondary {
+    border: 2px solid var(--secondaryColor);
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    &:hover, &:focus {
+        background-color: transparent;
+        color: #1A1A1A!important;
+        border-color: var(--secondaryColor);
+    }
+}
+.btn + .btn {
+    margin-left: 2rem;
+}
+.btn-black {
+    border: 2px solid #1A1A1A;
+    background-color: #1A1A1A;
+    color: var(--whiteColor);
+    &:hover, &:focus {
+        background-color: transparent;
+        color: #1A1A1A;
+        border-color: #1A1A1A;
+    }
+}
+
+.btn-white {
+    background: var(--whiteColor);
+    color: var(--secondaryColor);
+    &:hover, &:focus {
+        background-color: transparent;
+        color: var(--whiteColor);
+        border-color: var(--whiteColor);
+    }
+}
+
+.btn-success {
+    border: 2px solid transparent;
+    background-color: var(--SuccessColor);
+    color: var(--whiteColor);
+    font-weight: 500;
+    img {
+        margin-right: 1rem;
+    }
+    &:hover, &:focus {
+        background-color: #167c0c;
+        border-color: transparent;
+    }
+}
+.btn-danger {
+    border: 2px solid transparent;
+    background-color: var(--DangerColor);
+    color: var(--whiteColor);
+    font-weight: 500;
+    img {
+        margin-right: 1rem;
+    }
+    &:hover, &:focus {
+        background-color: #8d1829;
+        border-color: transparent;
+    }
+}
+
+.text-btn {
+    color: #008dbf;
+    font-weight: 600;
+}

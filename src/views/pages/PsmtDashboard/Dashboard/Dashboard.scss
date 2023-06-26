@@ -1,0 +1,12 @@
+.dashboard-side-info{background: var(--whiteColor);padding: 3rem;border-radius: 1rem; height: 100%;}
+.creditBalanceBx{padding: 2rem;border-radius: 1rem;background: url(../../../../assets/images/credit-bg.svg) #008DBF;background-size: cover;color: var(--whiteColor); cursor: pointer;
+    h2{display: flex;align-items: center;font-size: 2rem; justify-content: space-between; font-weight: 500; margin-bottom: 1.6rem;
+        a{color: var(--whiteColor);text-decoration: underline!important;font-size: 1.8rem;}
+    }
+    strong{font-size: 3.2rem;font-weight: 700;}
+}
+
+.dashboard-side-col{
+    + .dashboard-side-col{margin-top: 4rem;}
+    >h2{font-size: 2rem;font-weight: 700;margin-bottom: 2rem;}
+}

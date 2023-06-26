@@ -1,0 +1,29 @@
+.faq-bx {
+  margin-bottom: 5rem;
+  padding: 0 1.5rem;
+  h5 {
+    color: var(--forWebsitePrimaryColor);
+  }
+  a {
+    color: var(--forWebsitePrimaryColor);
+    font-weight: 500;
+  }
+  p {
+      font-size: 2rem;
+  }
+}
+.still-questions {
+  text-align: center;
+  img {
+    margin-bottom: 5rem;
+  }
+  p {
+      margin-bottom: 0;
+      font-size: 2rem;
+    a {
+      color: var(--forWebsitePrimaryColor);
+      font-weight: 500;
+      display: block;
+    }
+  }
+}

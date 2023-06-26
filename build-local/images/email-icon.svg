@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175.693" height="200" viewBox="0 0 175.693 200">
+  <g id="email-icon" transform="translate(-25)">
+    <path id="XMLID_1257_" d="M296.368,188.433h0L250,232.225l65.885,54.9V170Z" transform="translate(-115.192 -87.129)" fill="#7d0254"/>
+    <path id="XMLID_1258_" d="M25,170V287.129l65.885-54.9Z" transform="translate(0 -87.129)" fill="#920061"/>
+    <path id="XMLID_1259_" d="M90.885,297.5,25,352.4h87.846V318.242Z" transform="translate(0 -152.404)" fill="#7d0254"/>
+    <path id="XMLID_1260_" d="M205,318.242V352.4h87.846l-65.885-54.9Z" transform="translate(-92.154 -152.404)" fill="#610a43"/>
+    <path id="XMLID_1261_" d="M44.518,132.229,25,150.663H44.517Z" transform="translate(0 -67.73)" fill="#920061"/>
+    <path id="XMLID_1262_" d="M364.524,150.662,345,132.227v18.435Z" transform="translate(-163.831 -67.729)" fill="#920061"/>
+    <path id="XMLID_1263_" d="M172.343,0l-31.13,29.4,62.182-.074Z" transform="translate(-59.497)" fill="#920061"/>
+    <path id="XMLID_1264_" d="M345.009,188.433,364.526,170H345.008Z" transform="translate(-163.833 -87.077)" fill="#610a43"/>
+    <path id="XMLID_1265_" d="M112.846,252.966,44.515,188.431l0-18.431H25l65.885,62.225Z" transform="translate(0 -87.101)" fill="#610a43"/>
+    <path id="XMLID_1266_" d="M64.986,132.115l68.332,64.535,21.962-20.742,46.368-43.791h0V95.249l0-35.249-37.273.045-62.182.074-37.195.044,0,35.087v18.434Zm24.409-13.55h87.846v14.641H89.395Zm0-14.641V89.282h87.846v14.641Z" transform="translate(-20.471 -30.718)" fill="#dfdfdf"/>
+    <rect id="XMLID_1270_" width="87.599" height="14.932" transform="translate(69.047 58.209)" fill="#fff"/>
+    <rect id="XMLID_1271_" width="87.599" height="13.936" transform="translate(69.047 88.057)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+.reportCard{padding: 2.5rem; border-radius: 2rem; background: var(--whiteColor); margin-top: 3rem; border: 4px solid transparent; transition: 0.3s; cursor: pointer;
+    .reportCardHeader{display: flex;align-items: center;}
+    .reportImg{position: relative;
+        img,
+        span.firstNameLatter{width: 6rem;height: 6rem;border-radius: 50%;object-fit: cover;}
+        span.firstNameLatter{background: var(--secondaryColor);display: flex;align-items: center;justify-content: center;font-size: 3rem;font-weight: 700;color: var(--whiteColor);}
+    }
+    .reportDetail{padding-left: 2.6rem;
+        h2{font-size: 1.7rem;font-weight: 700;}
+        p{font-size: 1.5rem;color: #7E7E7E;margin-bottom: .5rem;}
+        span{display: flex;align-items: center; font-size: 1.5rem;
+            img{margin-right: .7rem;max-width: 1.5rem;}
+        }
+    }
+
+    h3{font-size: 1.6rem;font-weight: 500;margin: 1.3rem 0 .5rem 0;}
+    .verifyStatusList{display: flex;align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 0; padding: 0; list-style: none;
+        li{flex: 0 0 49%; max-width: 49%;margin-top: 1rem; color: #7E7E7E; font-size: 1.5rem;
+            svg{margin-right: 1rem;}
+            &:nth-last-child(1),
+            &:nth-last-child(2){flex: 0 0 100%;max-width: 100%;}
+        }
+    }
+
+    .missingDoc{font-size: 1.6rem; text-align: center; color: var(--secondaryColor);margin: 1.5rem 0 0 0;}
+
+    &:hover{box-shadow: 0 1.5rem 3rem rgba(0,0,0,0.1);
+        .profile-progress{opacity: 1;}
+    }
+
+    &.deactivated{border-color: var(--DangerColor);}
+    &.active{border-color: var(--SuccessColor);}
+    &.unverified{border-color: var(--yellowColor);}
+    &.newRecord{border-color: var(--primaryBadgeColor);}
+}
+
+.report-card-progress{position: relative; width: 8rem; height: 8rem; display: flex; align-items: center; justify-content: center; margin-left: auto;
+    .profile-progress{width: 6rem;height: 6rem;border-radius: 50%;object-fit: cover;background: #ebebeb;font-size: 1.7rem;display: flex;align-items: center;justify-content: center;color: var(--blackColor);position: absolute;font-weight: 700;transition: 0.3s;}
+    svg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+}
+
+.Instructions{
+    ul{list-style: none; margin: 0; padding: 0;
+        li{display: flex;
+            + li{margin-top: .5rem;}
+            span{width: 2rem;height: 2rem;display: inline-block;margin-right: 1rem;border-radius: 50%;margin-top: .3rem;
+                &.deactivated{background: var(--DangerColor);}
+                &.active{background: var(--SuccessColor);}
+                &.unverified{background: var(--yellowColor);}
+                &.newRecord{background: var(--primaryBadgeColor);}
+                &.inProgress{background: var(--orangeColor);}
+                &.additionalInfo{background: var(--secondaryColor);}
+            }
+        }
+    }
+}

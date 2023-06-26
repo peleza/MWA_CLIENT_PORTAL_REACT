@@ -1,0 +1,28 @@
+.user-profile-progress{position: relative; width: 10rem; height: 10rem; display: flex; align-items: center; justify-content: center;
+    img,
+    .profile-progress{width: 8rem;height: 8rem;border-radius: 50%;object-fit: cover;}
+    .profile-progress{background: rgba(0,0,0,0.67);font-size: 2.3rem;display: flex;align-items: center;justify-content: center;color: var(--whiteColor);position: absolute;font-weight: 700;opacity: 0;transition: 0.3s;}
+    svg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+}
+
+.best-performer{
+    &:hover{
+        .profile-progress{opacity: 1;}
+    }
+    .progress-outer{
+        h2{opacity: 0.8;font-size: 13px;}
+    }
+
+    .best-performer-col{display: flex;align-items: center;padding: 1.5rem; border-radius: 1rem; border: 1px solid #ddd;
+        .progress-col{margin-left: 2rem;}
+    }
+    .progress-outer + .progress-outer{margin-top: 1rem;}
+}
+
+.leave-application{
+    .notification-col + .notification-col{border: none;margin-top: 0;}
+}
+
+.dashboardNotification{
+    .dropdown-item{margin-bottom: 2rem;}
+}

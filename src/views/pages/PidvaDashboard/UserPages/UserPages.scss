@@ -1,0 +1,76 @@
+.credit-card-bx {
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.2);
+	background: rgb(146,0,97);
+    background: linear-gradient(341deg, rgba(146,0,97,1) 0%, rgba(0,141,191,1) 96%);
+	color: var(--whiteColor);
+	h2 {
+		text-transform: uppercase;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+        >span{display: flex;align-items: center;
+            >span{margin-left: 1rem;}
+        }
+        >div{display: flex;align-items: center;}
+		button {
+			background: transparent;
+			border: none;
+			color: var(--whiteColor);
+			font-size: 2rem;
+			width: 3.5rem;
+			height: 3.5rem;
+			border-radius: 50%;
+			background: rgba(255, 255, 255, 0.2);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			&:hover {
+				color: var(--SecondaryColor);
+			}
+            + button{margin-left: 1rem;}
+		}
+	}
+	h4 {
+		display: flex;
+		align-items: center;
+		font-size: 2.5rem;
+		margin: 3rem 0;
+		span {
+			display: inline-block;
+			margin-right: 1rem;
+		}
+	}
+	.btm-bar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		>div {
+			display: flex;
+			align-items: center;
+			div {
+				text-align: center;
+				h5 {
+					opacity: 0.7;
+				}
+				p {
+					margin: 0;
+				}
+				+ {
+					div {
+						margin-left: 4rem;
+					}
+				}
+			}
+			&:last-child {
+				font-size: 5rem;
+			}
+		}
+	}
+	+ {
+		.credit-card-bx {
+			margin-top: 2rem;
+		}
+	}
+}

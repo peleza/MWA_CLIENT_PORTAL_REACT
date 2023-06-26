@@ -1,0 +1,25 @@
+.section-title{margin-bottom: 5rem;
+    &.section-title-center {
+        text-align: center;
+        ::after {
+            margin: 1rem auto;
+        }
+    }
+    h2,
+    h1{font-size: 3.6rem;font-family: 'Gotham', sans-serif; margin-bottom:0; line-height: 1.4;
+        &::after{content: "";width: 8.5rem;height: 3rem;background: url(../../../assets/images/heading-border-shape.svg); background-size: contain; background-repeat: no-repeat; display: block;margin: 1rem 0;}
+    }
+    p{font-size: 2.2rem;color: var(--forWebsitePrimaryColor);margin: 0 auto; max-width: 87.4rem; line-height: 1.4;}
+    &.text-left {
+        p {margin: 0;max-width: 100%; }
+    }
+    &.text-white {
+        color: var(--whiteColor);
+    }
+}
+
+@media screen and (max-width: 991px){
+    .section-title{
+        h2{font-size: 2.6rem;}
+    }
+}

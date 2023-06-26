@@ -1,0 +1,13 @@
+.dashboard-info-bx{padding: 2rem;border-radius: 1rem;color: var(--whiteColor)!important; display: block;
+  h2{margin-bottom: 1.6rem;font-size: 1.8rem;}
+  div{display: flex;align-items: center;justify-content: space-between;
+      strong{font-size: 3rem;font-weight: 700;line-height: 1;}
+      img{filter: brightness(0) invert(1);}
+  }
+  &.white-color{color: var(--blackColor)!important;background: var(--whiteColor);}
+  &.baby-blue-color{
+    div{
+      img{filter: brightness(0) invert(1);}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.merge-facility-section {
+  .user-profile-progress {
+    position: relative;
+    width: 16.8rem;
+    height: 16.8rem;
+    display: flex;
+    justify-content: center;
+    img,
+    .profile-progress {
+      width: 13.4rem;
+      height: 13.4rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .profile-progress {
+      background: rgba(0, 0, 0, 0.67);
+      font-size: 3.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--whiteColor);
+      position: absolute;
+      font-weight: 700;
+      opacity: 0;
+      transition: 0.3s;
+    }
+  }
+}
+.background-table {
+  tr {
+    td,
+    th {
+      border: 1px solid #e6ecef;
+    }
+  }
+}

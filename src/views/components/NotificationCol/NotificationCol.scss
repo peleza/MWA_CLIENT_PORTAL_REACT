@@ -1,0 +1,10 @@
+.notification-col{display: flex;
+  + .notification-col{border-top: 1px solid #DFDFDF;margin-top: 1.5rem;padding-top: 1.5rem;}
+  .notification-img{max-width: 5rem; flex: 0 0 5rem; margin-right: 1.5rem;
+    img{width: 5rem;height: 5rem;border-radius: 1rem;object-fit: cover;}
+  }
+  .notification-detail{
+    p{font-size: 1.6rem;font-weight: 500;margin-bottom: .2rem;line-height: 1.3;}
+    span{font-size: 1.4rem;font-weight: 400;color: #7E7E7E;}
+  }
+}

@@ -1,0 +1,7 @@
+.dashboard-overview-bx{display: flex; align-items: center; justify-content: space-between; color: var(--whiteColor); padding: 2rem; border-radius: 1rem;
+  h3{font-size: 1.8rem;font-weight: 500;}
+  h2{font-size: 3rem;font-weight: 700;}
+  .overview-icon{width: 7.6rem;height: 7.6rem;border-radius: 50%;background: rgba(0,0,0,0.16);display: flex;align-items: center;justify-content: center;margin-left: 1rem;
+    img{filter: brightness(0) invert(1);}
+  }
+}

@@ -1,0 +1,41 @@
+body .repeat-white-bx .form-wrap.form-builder{
+    .form-control{
+        border-radius: 10px;
+        border: 1px solid transparent;
+        font-size: 1.8rem;
+        font-weight: 300;
+        background-color: #EFEFEF!important;
+        outline: none;
+        height: 5rem;
+        font-weight: 400;
+        color: var(--blackColor);
+        padding: 0.5rem 2rem;
+        border: none!important;
+        box-shadow: none!important;
+        width: 100%!important;
+        &:focus {
+            box-shadow: 0 0 0 0.1rem rgba(146, 0, 97, 0.4)!important;
+        }
+    }
+    select.form-control {
+        background: url(../../../../assets/images/dropdown-arrow.svg) no-repeat right
+          #EFEFEF!important;
+          padding-right: 5rem!important;
+        -webkit-appearance: none;
+        background-position: right 2rem center!important;
+    }
+    .field-label{font-weight: 500!important;color: var(--blackColor)!important;}
+    
+    .frmb{
+        li.form-field {padding: 0;background: transparent!important; margin-bottom: 2rem;
+            &:hover{box-shadow: none!important;border: none!important;}
+        }
+        .field-actions{ top: -2px;
+            .btn{border-width: 1px;border-radius: 5px!important;margin-left: .5rem;margin-bottom: .5rem;}
+        }
+    }
+
+    .clear-all,
+    .get-data{display: none;}
+    .btn.btn-primary{background: var(--secondaryColor);color: var(--whiteColor);border-radius: 1rem!important;font-size: 16px;padding: .5rem 1.5rem;height: 4.5rem;min-width: 13rem;margin-top: 2rem;}
+}
